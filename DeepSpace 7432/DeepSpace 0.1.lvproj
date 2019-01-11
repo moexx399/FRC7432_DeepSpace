@@ -9,10 +9,9 @@
 	<Property Name="varPersistentID:{07623DF9-E279-4A0A-B0A6-F89E76EBD6F0}" Type="Ref">/My Computer/Shared Variables.lvlib/Vision/Tape Tracking</Property>
 	<Property Name="varPersistentID:{08C2F732-41F8-4517-97B9-1396119E60D5}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/LinearAcceleration Z</Property>
 	<Property Name="varPersistentID:{1278CCD7-880C-4669-BF17-FCF7493D98A9}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Quat W</Property>
-	<Property Name="varPersistentID:{13A453FF-DF4F-4218-9225-4F5CCD585EF2}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Low Gear</Property>
+	<Property Name="varPersistentID:{13A453FF-DF4F-4218-9225-4F5CCD585EF2}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Item[@Label='Low Gear' and @Type='Variable']</Property>
 	<Property Name="varPersistentID:{165365B1-02EE-49AC-9B37-354DC621A6A1}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/LinearAcceleration X</Property>
 	<Property Name="varPersistentID:{17E8C3AE-4C18-471A-BC07-F62FC16956E0}" Type="Ref">/Target/Shared Variables.lvlib/NavX/Roll</Property>
-	<Property Name="varPersistentID:{1A423D3A-9D49-4ECE-B966-17EA02C60CA1}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Low Gear</Property>
 	<Property Name="varPersistentID:{1B32365D-7C16-4371-A0E0-0207AF45578C}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Right Reverse Adjust</Property>
 	<Property Name="varPersistentID:{1B41BB54-3D21-42E6-AD4C-B495A5B481EB}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Quat Y</Property>
 	<Property Name="varPersistentID:{1BFE321C-AA78-4EF8-97B4-7EA688BC4C5E}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Roll</Property>
@@ -28,7 +27,7 @@
 	<Property Name="varPersistentID:{31EA3132-FACF-4F00-8B0F-61C734FA5CE3}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Pitch</Property>
 	<Property Name="varPersistentID:{3208A725-1A3C-446E-80AE-E542E8FF45B0}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Strafe Correction Voltage</Property>
 	<Property Name="varPersistentID:{33C369CE-71CB-4615-81A3-D3610E0DA1CA}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Back Right Motor Direction</Property>
-	<Property Name="varPersistentID:{36E699FC-FB74-4755-B6B9-07B34BB4936E}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/High Gear</Property>
+	<Property Name="varPersistentID:{36E699FC-FB74-4755-B6B9-07B34BB4936E}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Low Gear</Property>
 	<Property Name="varPersistentID:{37396E4B-DB01-48FC-96DA-1A7B880D872F}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Driver Joystick X</Property>
 	<Property Name="varPersistentID:{39995302-C79A-4615-B21B-ED8B9E53F2BE}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Yaw</Property>
 	<Property Name="varPersistentID:{4297772C-8B38-41E3-9AF0-119BC774518E}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Tracks Down</Property>
@@ -76,7 +75,7 @@
 	<Property Name="varPersistentID:{B27FE43A-6277-4097-A2C3-A2CF2CFC7E1E}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Driver Joystick Y</Property>
 	<Property Name="varPersistentID:{B9751EFF-651F-4C10-A7A2-8673923FDAEE}" Type="Ref">/My Computer/Shared Variables.lvlib/Vision/Tape_Correction</Property>
 	<Property Name="varPersistentID:{BA32EBCB-7908-407E-951D-CDB13901DFF1}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Velocity Z</Property>
-	<Property Name="varPersistentID:{C2445189-3FEE-4D2D-BBBF-7A78E46EAADE}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/High Gear</Property>
+	<Property Name="varPersistentID:{C2445189-3FEE-4D2D-BBBF-7A78E46EAADE}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Item[@Label='Low Gear' and @Type='Variable']</Property>
 	<Property Name="varPersistentID:{C4E667ED-F81E-44EA-BF3E-0B8F9DB378D8}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Strafe Correction On</Property>
 	<Property Name="varPersistentID:{D19F7C4D-840E-4E39-8380-6A615E49DD2F}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Fused Heading</Property>
 	<Property Name="varPersistentID:{D4207547-7666-42BF-83F9-BCA99510DDF1}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Front Right Motor Throttle</Property>
