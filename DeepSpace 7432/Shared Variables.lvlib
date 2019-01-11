@@ -545,7 +545,7 @@
 		</Item>
 	</Item>
 	<Item Name="Vision" Type="Folder">
-		<Item Name="COG_BOX_SIZE" Type="Variable">
+		<Item Name="Ball_Correction" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -557,43 +557,7 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="Distance" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="Distance Correction" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="Distance Peg Setpoint" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="Go to distance" Type="Variable">
+		<Item Name="Ball_Tracking" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -605,7 +569,19 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="Height" Type="Variable">
+		<Item Name="Tape Tracking" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="Tape_Correction" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -617,29 +593,5 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="Pot Angle" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-			<Property Name="Global:EnableTimestamp" Type="Str">True</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-			<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-			<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"A!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-	</Item>
-	<Item Name="Joystick Connected?" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"A!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
