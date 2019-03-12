@@ -30,6 +30,7 @@
 	<Property Name="varPersistentID:{37396E4B-DB01-48FC-96DA-1A7B880D872F}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Driver Joystick X</Property>
 	<Property Name="varPersistentID:{39995302-C79A-4615-B21B-ED8B9E53F2BE}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Yaw</Property>
 	<Property Name="varPersistentID:{4297772C-8B38-41E3-9AF0-119BC774518E}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Tracks Down</Property>
+	<Property Name="varPersistentID:{430CA557-03D6-4FF9-82D1-A01C873D673E}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Loops_of_Z=0</Property>
 	<Property Name="varPersistentID:{450102F4-93F0-4A7C-B318-BF20C7CF489E}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Left Reverse Adjust</Property>
 	<Property Name="varPersistentID:{46261B1F-8102-449C-9D93-80F0C41EE085}" Type="Ref">/Target/Shared Variables.lvlib/NavX/LinearAcceleration Z</Property>
 	<Property Name="varPersistentID:{484C923D-5FC4-4E64-8B5C-44F6CD4B38D1}" Type="Ref">/Target/Shared Variables.lvlib/NavX/Quat W</Property>
@@ -53,6 +54,7 @@
 	<Property Name="varPersistentID:{64F6C0EB-E27C-422F-9748-2D3080125BB1}" Type="Ref">/My Computer/Shared Variables.lvlib/NavX/Displacement Z</Property>
 	<Property Name="varPersistentID:{682BC3C3-2F89-427F-9615-99742CC84C16}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Start Angle</Property>
 	<Property Name="varPersistentID:{69ED04AD-CB1C-4ED5-A520-DE4BC1AE99B0}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Back Right Motor Throttle</Property>
+	<Property Name="varPersistentID:{6A17D72C-DF9B-4E43-909B-8ADD0249B83D}" Type="Ref">/Target/Shared Variables.lvlib/Drive Train/Loops_of_Z=0</Property>
 	<Property Name="varPersistentID:{73BF676A-4260-4B4A-A41C-E43E732329FC}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Intake Front Robot Centric</Property>
 	<Property Name="varPersistentID:{74947D73-A139-4D6B-88F1-81FF85652294}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/Driver Joystick Rotation</Property>
 	<Property Name="varPersistentID:{753FF36E-C761-40C2-867B-22E651774125}" Type="Ref">/My Computer/Shared Variables.lvlib/Drive Train/State</Property>
@@ -803,7 +805,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">301</Property>
+				<Property Name="Bld_version.build" Type="Int">324</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
