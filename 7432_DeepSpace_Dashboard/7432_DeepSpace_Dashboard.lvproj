@@ -265,6 +265,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
+			<Item Name="WPI_DashboardGet Robot IP.vi" Type="VI" URL="../../../../../../Downloads/2019.2.2_LVDashboard/Program Files (x86)/Program Files (x86)/National Instruments/LabVIEW 2018/vi.lib/Rock Robotics/WPI/Dashboard/WPI_DashboardGet Robot IP.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
