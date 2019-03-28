@@ -1,8 +1,8 @@
 #include <opencv2\videoio.hpp>
 #include <opencv2\highgui.hpp>
 #include <opencv2\opencv.hpp>
-#include <ntcore.h>
-#include <networktables/NetworkTable.h>
+//#include <ntcore.h>
+//#include <networktables/NetworkTable.h>
 
 using namespace cv;
 using namespace std;
@@ -69,10 +69,10 @@ void main()
 	cv::Mat dst;
 
 	
-	NetworkTable::SetClientMode();
+	/*NetworkTable::SetClientMode();
 	NetworkTable::SetIPAddress("75.134.142.188");
 	NetworkTable::Initialize();
-	shared_ptr<NetworkTable> myTable = NetworkTable::GetTable("SmartDashboard");
+	shared_ptr<NetworkTable> myTable = NetworkTable::GetTable("SmartDashboard");*/
 
 
 	//Initialization of VideoCaptures
